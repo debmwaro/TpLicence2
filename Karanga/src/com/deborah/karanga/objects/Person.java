@@ -67,4 +67,9 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+    
+    public int getAge() {
+    	Date dateActuelle= new Date();
+    	return 0;
+    }
 }
