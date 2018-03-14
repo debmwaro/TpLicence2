@@ -15,7 +15,7 @@ public class Application {
 
 		System.out.println("getTime = "+Calendar.getInstance().getTime());
 		System.out.println("getTimeInMillis() = "+Calendar.getInstance().getTimeInMillis());
-		System.out.println("getTimeZone() = "+Calendar.getInstance().getTimeZone());
+		System.out.println("getTimeZone() = "+Calendar.getInstance().getTimeZone().getDisplayName());
 		
 	}
 
