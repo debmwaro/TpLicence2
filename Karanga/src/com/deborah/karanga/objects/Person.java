@@ -11,6 +11,7 @@ public class Person {
     private String city;
     private String cityzenship;
     private String employment;
+    private int annee;
 
     public String getCity() {
         return city;
@@ -68,8 +69,21 @@ public class Person {
         this.lastName = lastName;
     }
     
-    public int getAge() {
-    	Date dateActuelle= new Date();
-    	return 0;
+    
+    public int getAnnee() {
+		return annee;
+	}
+
+	public void setAnnee(int annee) {
+		this.annee = annee;
+	}
+
+	public int getAge(int year) {
+    	
+		//Date dateActuelle= new Date();
+		return(year-getAnnee());
+    	// 0;
+    	
+    
     }
 }
